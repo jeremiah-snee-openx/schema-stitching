@@ -1,0 +1,99 @@
+{
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
+  "setupTasks": ["yarn install"],
+  "tasks": {
+    "install-dependencies": {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    },
+    "local-remote":{
+      "name":"Homepage",
+      "command":"yarn workspace combining-local-and-remote-schemas dev"
+    },
+    "computed-fields":{
+      "name":"Docs",
+      "command":"yarn workspace computed-fields dev"
+    },
+    "continuous-integration-testing":{
+      "name":"integration-testing",
+      "command":"yarn workspace continuous-integration-testing dev"
+    }
+    ,
+    "custom-merge-resolvers":{
+      "name":"custom-merge",
+      "command":"yarn workspace custom-merge-resolvers dev"
+    }
+    ,
+    "federation-services":{
+      "name":"federation-services",
+      "command":"yarn workspace federation-services dev"
+    }
+    ,
+    "graphql-upload":{
+      "name":"upload",
+      "command":"yarn workspace graphql-upload dev"
+    }
+    ,
+    "hot-schema-reloading":{
+      "name":"reloading",
+      "command":"yarn workspace hot-schema-reloading dev"
+    }
+    ,
+    "mutations-and-subscriptions":{
+      "name":"subscriptions",
+      "command":"yarn workspace mutations-and-subscriptions dev"
+    }
+    ,
+    "persistent-connection":{
+      "name":"connection",
+      "command":"yarn workspace persistent-connection dev"
+    }
+    ,
+    "public-and-private-apis":{
+      "name":"privateapis",
+      "command":"yarn workspace public-and-private-apis dev"
+    }
+    ,
+    "stitching-directives-sdl":{
+      "name":"sdl",
+      "command":"yarn workspace stitching-directives-sdldev"
+    }
+    ,
+    "subservice-languages":{
+      "name":"subservice-anguages",
+      "command":"yarn workspace subservice-languages dev"
+    }
+    ,
+    "type-merging-arrays":{
+      "name":"merging-arrays",
+      "command":"yarn workspace type-merging-arrays dev"
+    }
+    ,
+    "type-merging-interfaces":{
+      "name":"merging-interfaces",
+      "command":"yarn workspace type-merging-interfaces dev"
+    }
+    ,
+    "type-merging-multiple-keys":{
+      "name":"multiple-keys",
+      "command":"yarn workspace type-merging-multiple-keys dev"
+    }
+    ,
+    "type-merging-nullables":{
+      "name":"nullables",
+      "command":"yarn workspace type-merging-nullables dev"
+    }
+    ,
+    "type-merging-single-records":{
+      "name":"single-records",
+      "command":"yarn workspace type-merging-single-records dev"
+    }
+    ,
+    "versioning-schema-releases":{
+      "name":"releases",
+      "command":"yarn workspace versioning-schema-releases dev"
+    }
+  }
+}
+
+
